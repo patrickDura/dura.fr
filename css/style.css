@@ -1,0 +1,276 @@
+/*========================*/
+/*===  1. CSS Reset    ===*/
+/*========================*/
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+/*========================*/
+/*===  2. Common       ===*/
+/*========================*/
+
+@font-face {
+ font-family:"Humnst777 Blk BT";
+ src: url(../font/Hum777k.ttf);
+}
+
+@font-face {
+ font-family:"Humnst777 BT";
+ src: url(../font/Hum777Bd.ttf);
+}
+
+@font-face {
+ font-family:"Freehand575 BT";
+ src: url(../font/Freeh575.ttf);
+}
+
+@font-face {
+    font-family: 'Freehand575BTRegular';
+    src: url('../font/freeh575-webfont.eot');
+    src: url('../font/freeh575-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/freeh575-webfont.woff') format('woff'),
+         url('../font/freeh575-webfont.ttf') format('truetype'),
+         url('../font/freeh575-webfont.svg#Freehand575BTRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+ font-family:"Nevis";
+ src: url(../font/nevis.ttf);
+}
+
+body {
+	overflow-x: hidden;
+	background:#d5d5d5 url(../img/cartographer.png);
+}
+p{
+	font-family:Arial, Tahoma, Geneva, sans-serif;
+}
+
+.right {
+	float:right;
+}
+h1 {
+	 font-size:48px;
+	 color:#1e7b9c;
+	 font-family:"Nevis";
+	 font-weight:normal;
+	 text-shadow: rgba(255,255,255,0.5) 1px 0, rgba(255,255,255,1) 0 1px, rgba(0,0,0,0.2) 0 -1px, rgba(255,255,255,1) 1px 2px; opacity:0.9;
+}
+
+h2{
+ color:#424242;
+ font-family:"Freehand575BTRegular";
+ font-weight:normal;
+ font-size:55px;
+ width:750px;
+ text-shadow:1px 1px 0px #fff; 
+ margin: 18px auto 0px; 
+ line-height:54px;
+}
+
+h3 {
+	color:#373737;
+	font-family:Helvetica, Arial, sans-serif;
+	border-bottom :1px dashed #CCC;
+	margin-bottom:10px;
+}
+
+h4 {
+	color:#555555;
+}
+h5 {
+	color:#1e7b9c;
+	font-family: Helvetica, Arial, sans-serif;
+	
+}
+h6 {
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#555555;
+}
+
+span.highlight{color:#1e7b9c;}
+ .helv14bold {
+	font-family:Helvetica, Arial, sans-serif;
+	color:#373737; line-height:1.5em;
+}
+
+.header a img{
+	margin-top:15px;
+	text-decoration: none;
+}
+
+.tel{
+ font-family:"Nevis";
+ font-weight:normal !important;
+ font-size:20px;
+ color:#1e7b9c;
+}
+
+/*========================*/
+/*===  3. Header       ===*/
+/*========================*/
+
+.header {
+	width:999px;
+	margin:0 auto;
+	padding : 0 10px;
+	background-color:#fff;
+}
+
+.headerwrapper {
+	width:971px;
+	display:block;
+	padding:36px 10px 18px 0px;
+	text-align:center;
+	margin:0 auto;
+	background:url(../img/white_wall.png);
+}
+
+/*========================*/
+/*===  4. Block       ===*/
+/*========================*/
+
+.block {
+	width:999px;
+	margin:0 auto;
+	padding : 0 10px;
+	background-color:#fff;
+}
+
+.block h1{
+	font-size:50px;
+	padding-bottom : 10px;
+/*	border-bottom :1px dashed #CCC;*/
+}
+
+.block h2{
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:23px;
+	margin:10px 5px 5px 10px;
+	width:100%;
+	border-bottom :2px dashed #7f7b7b;
+	line-height:37px;
+}
+
+.block h2 img{
+	margin-right:15px;
+}
+
+.block h2 a{
+	color:#1e7b9c;
+	text-decoration:none;
+}
+
+.block h3{
+	margin-left:20px;
+	font-size:20px;
+}
+
+.block>.techno{
+	color:grey;
+	font-size:16px;
+	margin-left:35px;
+	font-style:italic;
+}
+
+.block h3 span.date{
+	color:grey;
+	font-size:16px;
+	margin-right:10px;
+	font-style:italic;
+	float:right;
+}
+
+.block h2 span.date{
+	color:grey;
+	font-size:16px;
+	float:right;
+	font-style:italic;
+	margin-right:15px;
+}
+
+.description{
+	margin-left : 35px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:15px;
+}
+
+.description ul{
+	margin-left:40px;
+}
+
+.description p{
+	font-size:14px;
+	color:grey;
+}
+
+#pie{
+	margin:10px auto;
+	background:#d5d5d5 url(../img/cartographer.png);
+	width:570px;
+	height:420px;
+}
+
+.box{
+	background-color: #ffffff;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+	-moz-box-shadow: 0px 0px 7px #000000;
+	-webkit-box-shadow: 0px 0px 7px #000000;
+	box-shadow: 0px 0px 7px #000000;
+	/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+}
+
+.block p{
+	margin: 0 15px 0 15px;
+}
+
+/*------------------------------------*\
+	RIBBON
+\*------------------------------------*/
+.block h1{
+	position:relative;
+	font-family:"Freehand575BTRegular";
+	font-weight:normal;
+	color:#fff;
+	background:#1e7b9c;
+	font-size:3em;
+	clear:both;
+	padding:10px 10px 10px 20px;
+	margin-left:-20px;
+	margin-bottom:10px;
+	text-shadow:0 -1px #115c77, 0 1px #1785ad;
+
+	-moz-box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+	-webkit-box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+	-o-box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+	box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+}
+.block h1:before{
+	content:" ";
+	background:url(../img/ribbon.png);
+	display:block;
+	width:10px;
+	height:10px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	margin-bottom:-10px;
+	z-index:-1;
+}
+
